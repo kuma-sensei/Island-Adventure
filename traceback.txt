@@ -1,0 +1,28 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 103, in script
+    if c:
+  File "game/script.rpy", line 103, in <module>
+    if c:
+NameError: name 'c' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 103, in script
+    if c:
+  File "E:\Programming Center\RenPy\renpy-6.99.13-sdk\renpy\ast.py", line 1729, in execute
+    if renpy.python.py_eval(condition):
+  File "E:\Programming Center\RenPy\renpy-6.99.13-sdk\renpy\python.py", line 1919, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "E:\Programming Center\RenPy\renpy-6.99.13-sdk\renpy\python.py", line 1912, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 103, in <module>
+    if c:
+NameError: name 'c' is not defined
+
+Windows-8-6.2.9200
+Ren'Py 6.99.14.3.3347
+Island Adventure Island Project v0.01
+Mon Apr 16 17:16:53 2018

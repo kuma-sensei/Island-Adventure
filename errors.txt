@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 103: expected statement.
+    renpy.redraw(c)
+                   ^
+
+Ren'Py Version: Ren'Py 6.99.14.3.3347
+Mon Apr 16 17:08:57 2018
