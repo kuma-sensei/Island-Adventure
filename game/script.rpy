@@ -79,6 +79,7 @@ screen cycle_character_screen():
             
             text "Select a character image:"
             grid 2 1:
+                xalign 0.5
                 textbutton "<":
                     clicked [SetVariable("char_list_pos", cycle(-1, char_list_pos, char_list)), 
                         SetVariable("char", char_list[cycle(-1, char_list_pos, char_list)]),
